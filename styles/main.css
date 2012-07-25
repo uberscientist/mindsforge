@@ -92,3 +92,7 @@ a:hover {
   left: -42px;
   top: 9px;
 }
+
+div#preload {
+  display: none;
+}
