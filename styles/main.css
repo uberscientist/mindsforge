@@ -66,9 +66,27 @@ a:hover {
   background-image:url('../imgs/stego.png');
 }
 
+.project#twitter:hover {
+  background-image:url('../imgs/twitter.png');
+}
+
+.project#tumblr:hover {
+  background-image:url('../imgs/tumblr.png');
+}
+
+.project#github:hover {
+  background-image:url('../imgs/github.png');
+}
 #pagewrapper {
   width: 800px;
   margin: 20px auto;
+}
+
+#neon_animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
 }
 
 #title {
