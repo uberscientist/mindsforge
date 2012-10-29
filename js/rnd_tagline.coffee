@@ -12,18 +12,27 @@ nouns = ['Design', 'Business', 'Programming', 'Studies',
          'Adventure', 'Conversations', 'Interactions']
 
 $ = (id) -> document.getElementById(id)
+adjIndex = 0
+nounIndex = 0
 
-genAdj = () ->
-  rnd = Math.floor(Math.random() * adjs.length)
-  $('adj').innerHTML = adjs[rnd]
+genAdj = (index) ->
+  adjIndex = index ?= Math.floor(Math.random() * adjs.length)
+  $('adj').innerHTML = adjs[adjIndex]
+  window.location.hash = "#{adjIndex}.#{nounIndex}"
 
-genNoun = () ->
-  rnd = Math.floor(Math.random() * nouns.length)
-  $('noun').innerHTML = nouns[rnd]
+genNoun = (index) ->
+  nounIndex = index ?= Math.floor(Math.random() * nouns.length)
+  $('noun').innerHTML = nouns[nounIndex]
+  window.location.hash = "#{adjIndex}.#{nounIndex}"
   
 genBoth = () ->
-  genAdj()
-  genNoun()
+  if window.location.hash
+    indices = window.location.hash.split('#').join('').split('.')
+    genAdj(indices[0])
+    genNoun(indices[1])
+  else
+    genAdj()
+    genNoun()
 
 window.onload = () ->
   genBoth()

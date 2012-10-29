@@ -44,6 +44,10 @@ a {
   z-index: 1;
 }
 
+.tagline:hover {
+  cursor: pointer;
+}
+
 .project#go:hover {
   background-image:url('../imgs/hivego.png');
 }
@@ -107,18 +111,10 @@ a {
   width: 736px;
 }
 
-#flame_l {
-  z-index: -1;
+#email {
+  top: 40px;
+  left: 48px;
   position: relative;
-  left: 42px;
-  top: 9px;
-}
-
-#flame_r {
-  z-index: -1;
-  position: relative;
-  left: -42px;
-  top: 9px;
 }
 
 div#preload {
