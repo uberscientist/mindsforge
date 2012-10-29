@@ -1,14 +1,5 @@
-@font-face { 
-  font-family: 'horny-webfont';
-  src: url('fonts/horny-webfont.eot');
-  src: url('fonts/horny-webfont.eot?#iefix') format('embedded-opentype'),
-   url('fonts/horny-webfont.woff') format('woff'),
-   url('fonts/horny-webfont.ttf') format('truetype'),
-   url('fonts/horny-webfont.svg#webfont') format('svg');
-}
-
 body {
-  font-family: 'Germania One', sans-serif;
+  font-family: 'Righteous', sans-serif;
   background-color: #010101;
   background-image: url('../imgs/grid.gif');
   color: #FF00A7;
