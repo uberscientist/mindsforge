@@ -2,7 +2,7 @@ body {
   font-family: 'Righteous', sans-serif;
   background-color: #010101;
   background-image: url('../imgs/grid.gif');
-  color: #FF00A7;
+  color: #D80089;
 }
 
 h1 {
@@ -10,12 +10,16 @@ h1 {
   font-size: 3em;
 }
 
+a {
+  text-decoration: none;
+}
+
 #featured {
-  width: 90%;
+  top: 140px;
   margin: 10px auto;
   padding: 10px;
-  border-bottom: solid gray;
   overflow: hidden;
+  position: relative;
 }
 
 .project {
@@ -68,12 +72,10 @@ h1 {
   margin: 20px auto;
 }
 
-#title {
-  text-align: center;
-  width: 710px;
-  margin: 0px auto;
-  padding: 10px;
-  border-bottom: solid gray;
+#border {
+  background:url('../imgs/border.svg') no-repeat;
+  height: 533px;
+  width: 736px;
 }
 
 #flame_l {
