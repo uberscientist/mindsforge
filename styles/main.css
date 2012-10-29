@@ -15,7 +15,7 @@ a {
 }
 
 #featured {
-  top: 140px;
+  top: 50px;
   margin: 10px auto;
   padding: 10px;
   overflow: hidden;
@@ -67,9 +67,38 @@ a {
 .project#github:hover {
   background-image:url('../imgs/github.png');
 }
+
 #pagewrapper {
   width: 800px;
   margin: 20px auto;
+}
+
+#title {
+  font-size: 37pt;
+  text-align: center;
+  margin: 10px auto;
+  width: 345px;
+  position: relative;
+}
+
+#tagline {
+  font-size: 27pt;
+  top: -20px;
+  margin: 0px auto;
+  width: 345px;
+  position: relative;
+}
+
+#adj {
+  top: 0px;
+  left: 20px;
+  position: absolute;
+}
+
+#noun {
+  bottom: -80px;
+  right: 40px;
+  position: absolute;
 }
 
 #border {
