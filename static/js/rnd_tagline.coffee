@@ -3,13 +3,15 @@ adjs = ['Serious', 'Alphabet', 'Absolute',
         'Mathematical', 'Algebraic', 'Functional',
         'Quasi', 'Erroneous', 'Special', 'Quirky',
         'Miffed', 'Jumpy', 'Spastic', 'Creamy',
-        'Delicious', 'Singular', 'Fluid', 'Complete']
+        'Delicious', 'Singular', 'Fluid', 'Complete',
+        'Relative', 'Symbolic', 'Heiroglyphic', 'Masterful']
 
 nouns = ['Design', 'Business', 'Programming', 'Studies',
          'Creation', 'Observations', 'Associations',
          'Commerce', 'Deductions', 'Soup', 'Dreams',
          'Jargon', 'Context', 'Visions', 'Projects',
-         'Adventure', 'Conversations', 'Interactions']
+         'Adventure', 'Conversations', 'Interactions',
+         'Contemplations', 'Mathematics', 'Conjunctions']
 
 $ = (id) -> document.getElementById(id)
 adjIndex = 0
